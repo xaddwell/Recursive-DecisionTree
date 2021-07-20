@@ -107,8 +107,8 @@ class decisionTree:
                     que.put(child)
 
 
-pathTrain=r"C:\Users\34780\Desktop\大二下\机器学习\作业\实验三\朴素贝叶斯\watermelon3_0_En.csv"
-pathTest=r"C:\Users\34780\Desktop\大二下\机器学习\作业\实验三\朴素贝叶斯\test.csv"
+pathTrain=r"C:\Users\watermelon3_0_En.csv"
+pathTest=r"C:\Users\test.csv"
 (trX,trY)=loadData(pathTrain)
 (teX,teY)=loadData(pathTest)
 feathearNum=np.shape(trX)[1]-1
